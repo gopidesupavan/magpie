@@ -905,9 +905,9 @@ Good entry points, in rough order of ramp-up cost:
 2. **Documentation improvements.** Read a skill or a doc, find a
    gap or a stale reference, fix it. The `docs/setup/`,
    `docs/security/`, and `docs/pr-management/` trees are all
-   actively curated and welcome refinement. The `link-check`
-   workflow surfaces broken anchors and dead URLs daily — work
-   from that report is high-value.
+   actively curated and welcome refinement. `prek run lychee`
+   surfaces broken anchors and dead URLs across the whole repo —
+   work from what it reports is high-value.
 
 3. **Eval fixtures.** [`tools/skill-evals/evals/`](tools/skill-evals/evals/)
    has 1000+ cases across all skills, but every skill could use more
